@@ -1,0 +1,33 @@
+.abilities{
+    background-color: white;
+    color: #19191b;
+    text-align: center;
+    padding: 4rem 5rem;
+}
+.abilities h3{
+    text-align: left;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    font-weight: bold;
+}
+.abilities-divider-line{
+    margin-top:2.5rem;
+    margin-bottom:2.5rem;
+}
+.abilities-tab-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-column-gap: 5rem;
+    grid-row-gap: 2px;
+}
+
+@media screen and (max-width: 600px) {
+    .abilities{
+        padding: 2rem 1rem; 
+    }
+    .abilities-tab-div{
+        grid-template-columns: 1fr;
+        grid-row-gap: 3px;
+    }
+}

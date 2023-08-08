@@ -1,0 +1,31 @@
+.achievements{
+    background-color: #0e0e10;
+    color: white;
+    padding: 4rem 5rem;
+    text-align: left;
+    line-height: 1.5em !important;
+}
+.achievements-container{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.achievements-display-more-button, .achievements-display-more-button:hover, .achievements-display-more-button:active, .achievements-display-more-button:focus{
+    background: transparent;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: fit-content;
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+.achievements-display-more-button:hover{
+    cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+    .achievements{
+        padding: 2rem 1rem; 
+    }
+
+}

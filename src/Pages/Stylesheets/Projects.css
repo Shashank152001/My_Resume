@@ -1,0 +1,30 @@
+.projects{
+    background-color: #1a1a1b;
+    color: white;
+    text-align: center;
+    padding: 4rem 5rem;
+}
+.projects h1{
+    padding-bottom: 1rem;
+}
+.projects hr{
+    margin-top:2.5rem;
+    margin-bottom:2.5rem;
+}
+.projects-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    grid-column-gap: 5rem;
+    grid-row-gap: 20px;
+}
+
+@media screen and (max-width: 500px) {
+    .projects{
+        padding: 2rem 1rem;
+    }
+    .projects-div{
+        grid-template-columns: 1fr;
+        grid-row-gap: 15px;
+    }
+}

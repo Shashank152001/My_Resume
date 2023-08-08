@@ -1,0 +1,33 @@
+.download-resume {
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    z-index: 2000;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    box-shadow: 0 0 5px black !important;
+    color: #232325 !important;
+    transition: all .3s ease-in-out;
+}
+.ant-tooltip{
+    box-shadow: 0 0 5px black !important;
+    border-radius: 4px;
+}
+.ant-tooltip-arrow::before{
+    color: white !important;
+    background: white !important;
+}
+.ant-tooltip-inner{
+    background-color: white !important;
+    color: #121214 !important;
+    padding: 8px 16px !important;
+    font-size: 1.1em !important;
+    cursor: pointer;
+}

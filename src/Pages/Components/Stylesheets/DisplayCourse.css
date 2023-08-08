@@ -1,0 +1,23 @@
+.certification-individual-div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+.certification-individual-div-image-container{
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; /* Ensures the shape is a circle */
+}
+.certification-individual-div-image-container img{
+    width: 30px;
+}
+.certification-individual-div-text-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 1.1em;
+}

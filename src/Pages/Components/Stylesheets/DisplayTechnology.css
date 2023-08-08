@@ -1,0 +1,9 @@
+.display-technology-div{
+    border:2px solid #09090b;
+    border-radius: 1rem;
+    padding: 6px 11px;
+}
+.display-technology-div:hover{
+    background-color:#161618;
+    color: white;
+}

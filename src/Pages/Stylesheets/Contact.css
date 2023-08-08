@@ -1,0 +1,110 @@
+.contact{
+    background-color: #434342;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-bottom: 0 !important;
+}
+.contact h1{
+    padding-bottom:1rem;
+}
+.contact hr{
+    margin-top:2.5rem;
+    margin-bottom:2.5rem;
+}
+.contact-form{
+    padding: 1rem;
+    text-align: center;
+}
+.input-field-container{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.contact-form  input{
+    background-color: black;
+    border: none;
+    color: white;
+    border-bottom: 1px solid white;
+    margin-bottom: 1rem;
+    padding: 0.6rem;
+    width: 100%;
+}
+.contact-form  input:hover, .contact-form  input:active, .contact-form  input:focus{
+    border: none;
+    outline: none;
+    border-bottom: 2.5px solid white;
+}
+.error-field{
+    border-bottom: 2.5px solid red !important;
+    margin-bottom: 6px !important;
+}
+.error-paragraph{
+    width: 80%;
+    font-size: 0.8em;
+    text-align: left;
+    /* padding: 0.6rem; */
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+    color: red;
+}
+.contact-form-submit{
+    margin-top: 1rem !important;
+    background-color: white !important;
+    border: none !important;
+    border-radius: 20px;
+    color : black !important;
+    font-weight: bold !important;
+    width: 80% !important;
+    height: 40px;
+}
+.contact-form-submit:hover{
+    cursor: pointer;
+}
+.contact-information{
+    padding: 1rem;
+    padding-top: 2rem;
+}
+.contact-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.contact-information a{
+    margin:auto;
+    padding-right:1rem ;
+}
+.contact-information-paragraph{
+    padding-top: 5px !important;
+}
+.copyright-div{
+    background-color: black;
+    color: white;
+    margin: 0;
+    border-top: 2px solid white;
+    padding: 5px;
+    padding-top: 12px;
+    font-size: 0.8em;
+    text-align: center;
+}
+.ant-message-custom-content{
+    padding: 6px !important;
+}
+@media screen and (max-width: 500px) {
+    .contact{
+        padding: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .contact-div{
+        display: block;
+        padding: 0.5rem;
+    }
+}

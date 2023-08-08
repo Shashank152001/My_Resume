@@ -1,0 +1,17 @@
+.project-links-modal .ant-modal-body{
+    padding-top: 20px;
+    padding-bottom: 10px; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.project-links-modal-link{
+    font-size: 1.25em !important;
+    color: #4e54c8 !important;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.project-links-modal-link:hover{
+    text-decoration: underline;
+}

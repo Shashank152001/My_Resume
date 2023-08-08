@@ -1,0 +1,80 @@
+.education{
+    background-color: #1f1f21;
+    color: white;
+    text-align: left;
+    padding: 4rem 5rem;
+    text-align: center;
+}
+.education-timeline-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+}
+.education-timeline {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.education-timeline .ant-timeline-item {
+    width: calc(50% - 10px); /* Subtracting the half of the gap value */
+}
+.education-timeline-item h3,.education-timeline-item p{
+    margin: 0 ;
+    /* padding: 0 ; */
+}
+.education-timeline-item{
+    text-align: left;
+    color: white;
+    display: flex !important;
+    flex-direction: column !important;
+    line-height: 1.5em;
+    gap: 20px !important;
+    justify-content: space-between;
+}
+.education-timeline-item h3, .education-timeline-item p{
+    padding-bottom: 8px;
+    font-size: 1.1em;
+}
+.education-timeline-item h3{
+    color: #FFD699;
+    font-size: 1.12em;
+    font-weight: bold;
+}
+.education-timeline-item p:first-of-type{
+    font-weight: bold;
+}
+.education-timeline-item p:last-of-type{
+    padding-bottom: 0;
+}
+.education-timeline .ant-timeline-item-head {
+    background-color: transparent; /* Change the dot color */
+}
+.education-timeline .ant-timeline-item-tail {
+    background-color: #FFD699; /* Change the line color */
+}
+.education-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #FFD699; /* educationize the dot color for each Timeline.Item */
+    border-radius: 50% !important;
+}
+@media screen and (max-width: 600px) {
+    .education{
+        padding: 2rem 1rem; 
+    }
+    .education-tab-div div{
+        width: 90%;
+        padding: 0.2rem;
+    }
+    .education-tab-div{
+        display: block;
+        padding: 1rem;
+    }
+    .education span{
+        display: none;
+    }
+    .education-timeline .ant-timeline-item {
+        width: 100%;
+    }
+}
